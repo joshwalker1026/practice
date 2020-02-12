@@ -1,14 +1,12 @@
 package sort;
 
-public class QuickSort  {
-    private int[] numbers;    
-    
+public class QuickSort  {   
     public void sort(int[] arr) {
         // check for empty or null array
         if (arr ==null || arr.length==0){
             return;
         }
-        this.numbers = arr;
+        
         quicksort(arr, 0, arr.length - 1);
     }
 

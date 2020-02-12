@@ -5,8 +5,7 @@ public class ProductArray {
 	public static void main (String[] arg)
 	{
 		int[] arrayOfInts = {11, -4, 3, -3, 2, 8, 1};
-		ProductArray product = new ProductArray();
-		System.out.println(product.getProduct(arrayOfInts));
+		System.out.println(getProduct(arrayOfInts));
 	}
 	
 	
