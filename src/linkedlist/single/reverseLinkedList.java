@@ -7,7 +7,7 @@ import org.junit.runner.notification.Failure;
 
 import static org.junit.Assert.*;
 
-public class Solution {
+public class reverseLinkedList {
 
     public static class LinkedListNode {
 
@@ -97,7 +97,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(Solution.class);
+        Result result = JUnitCore.runClasses(reverseLinkedList.class);
         for (Failure failure : result.getFailures()) {
             System.out.println(failure.toString());
         }
