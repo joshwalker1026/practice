@@ -1,4 +1,4 @@
-package sort;
+package sorting;
 
 public class QuickSort  {
     private int[] numbers;    
