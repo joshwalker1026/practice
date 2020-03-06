@@ -1,12 +1,5 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
 public class Practice  {
-    Set <Integer> x = new HashSet();
-	
-	
 	private int[] numbers;
 
     public void sort(int[] arr) {
@@ -75,8 +68,7 @@ public class Practice  {
     
     public static void main(String args[])
     {
-    	Map <Character, Integer> occur = new HashMap<Character, Integer>();
-    		Practice sorter = new Practice();
+    	Practice sorter = new Practice();
         //int [] arr={4,23,14,1,5};
         int [] arr={4,23,14,1,5};
         

@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 class isIsomorphic {
-  public static boolean isIsomorphic(String s, String t) {    
+  public static boolean is_Isomorphic(String s, String t) {    
     if (s.length() == 0 || s == null || t.length() == 0 || t == null)
       return false;
     
@@ -34,7 +34,7 @@ class isIsomorphic {
 
   public static void main(String[] args) {
 
-    System.out.println(isIsomorphic("kff", "egg"));
+    System.out.println(is_Isomorphic("kff", "egg"));
 
   }
 

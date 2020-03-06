@@ -31,7 +31,7 @@ public class reverse {
             it = it.next;
         }
 
-        it = reverse(head);
+        it = reverse_list(head);
 
         while (it != null){
             System.out.println(it.val);
@@ -41,7 +41,7 @@ public class reverse {
     }
 
 
-    protected static node reverse(node head){
+    protected static node reverse_list(node head){
 
         node current = head.next;
         node prev = null;

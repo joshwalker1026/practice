@@ -5,7 +5,7 @@ public class MostOccur {
 
 	public static void main(String args[]) {
 		int [] arr = {1, 4, 5, 6, 7, 8, 1, 6, 7, 2, 5, 7, 4};
-		Map <Integer, Integer> occur = new HashMap();
+		Map <Integer, Integer> occur = new HashMap<Integer, Integer>();
 		
 		for (int i = 0; i < arr.length; i++) {
 			Integer a = arr[i];

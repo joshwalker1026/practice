@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 
 class strStr {
-	public static int strStr(String sub, String whole) {
+	public static int strStr_(String sub, String whole) {
 		int index = 0;
 		int j = 0;
 
@@ -33,7 +31,7 @@ class strStr {
 
 	public static void main(String[] args) {
 
-		System.out.println(strStr("asd", "adefvasd"));
+		System.out.println(strStr_("asd", "adefvasd"));
 
 	}
 
